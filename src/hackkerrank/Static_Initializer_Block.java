@@ -10,6 +10,7 @@ package hackkerrank;
 	
 	static int B, H;
 	static boolean flag;
+	
 	static {
 	Scanner sc = new Scanner(System.in);
 
