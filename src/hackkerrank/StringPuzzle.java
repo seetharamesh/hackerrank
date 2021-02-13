@@ -37,8 +37,7 @@ public class StringPuzzle {
       			s = "No";
       			flag=true;
       			break;
-      		}
-      		
+      		}     		
       	}
         }
         if(flag)
