@@ -14,8 +14,6 @@ public class RegexPattern {
 		catch(PatternSyntaxException e) {
 			System.out.println("Invalid");
 		}
-		// Matcher m = p.matcher("aaaaab");
-		// boolean b = p.matches(p, null);
 
 	}
 
