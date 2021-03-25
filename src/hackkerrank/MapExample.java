@@ -7,7 +7,6 @@ import java.util.Scanner;
 public class MapExample {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		//first get number of entries in phonebook
 		Scanner in = new Scanner(System.in);
 		int n=in.nextInt();//get number of entries in phonebook
