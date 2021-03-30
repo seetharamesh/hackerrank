@@ -22,7 +22,7 @@ class BigDecimalExample{
       		for(int k = j+1; k < n; k++) {
       	 
       	 BigDecimal bd2 = new BigDecimal(s[k]);
-      	 int res = bd2.compareTo(bd1);//compareTo return 1 if first value is greater, 0 if both are equal, -1 if second value is greater
+      	 int res = bd2.compareTo(bd1);//compareTo return 1 if first value(bd2) is greater than bd1, 0 if both are equal, -1 if second value is greater
       	 if(res == 1) {
       		 bd1 = bd2;
       		 index = k; 
