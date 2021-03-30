@@ -1,5 +1,4 @@
 package hackkerrank;
-
 import java.util.Scanner;
 
 public class Anagrams {

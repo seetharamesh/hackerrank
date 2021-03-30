@@ -1,5 +1,4 @@
 package hackkerrank;
-
 import java.util.*;
 abstract class Book{
 	String title;
