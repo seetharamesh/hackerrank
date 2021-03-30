@@ -6,7 +6,7 @@ class Test2{
 	}
 }
 
-public class Miscellaneous extends Test2 {
+public class TestExample extends Test2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
