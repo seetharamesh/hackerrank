@@ -1,23 +1,23 @@
 package hackkerrank;
 import java.io.*;
 
-public class test {
+public class JunitExample {
 
+	int add(int a, int b) {
+		System.out.println("inside add");
+		return (a+b);
+	}
+	
+	int subtract(int a, int b) {
+		System.out.println("inside subtract");
+		return (a-b);
+	}
 	public static void main (String[] args) throws java.lang.Exception
 	  {
-
-		    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		    
-		    String num = br.readLine(); //read the first input
-			int n = Integer.parseInt(num);//convert string to int
-			
-		    String str = br.readLine();//read the next input
-		   
-			for(int i = 0; i < n; i++) //loop through and print the string
-				System.out.println(str);
-		
-		    
-		  }
-		}
+		JunitExample ju = new JunitExample();
+		System.out.println(ju.add(2,3));
+		System.out.println(ju.subtract(6, 5));    
+	}
+}
 	
 
