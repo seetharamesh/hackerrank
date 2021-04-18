@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/* Comparable interface allows us to sort custom objects based on single data member at a time*/
+
 //lets create custom class to use compareTo
 class StudentComparator implements Comparable<StudentComparator>{
 	int id;
@@ -17,7 +19,7 @@ class StudentComparator implements Comparable<StudentComparator>{
 		
 	}
 	@Override
-	//compareTo for age
+	//compareTo for  age
 	public int compareTo(StudentComparator s) {
 		if(this.age > s.age) return 1;
 		else if(this.age < s.age) return -1;
