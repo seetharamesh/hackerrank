@@ -1,6 +1,8 @@
 package hackkerrank;
 
 import java.util.*;
+import java.util.Stack;
+
 class StackExample{
 	
 	public static void main(String []argh)
@@ -11,7 +13,7 @@ class StackExample{
 			String input=sc.next();
 			//System.out.println(input);
 			//System.out.println(input.length());
-			Stack<Character> st = new Stack<>();
+			Stack<Character> st = new Stack<Character>();
 			char ch = ' ';
 			if(input.length() % 2 != 0) System.out.println(false);//added this initial check if odd that means the strings are not closed
 			else

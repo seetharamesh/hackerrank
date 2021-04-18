@@ -71,20 +71,25 @@ public class ComparatorClass {
 		arr.add(new Employee(105, "Aaron",23));
 		arr.add(new Employee(102, "Mills",26));
 		arr.add(new Employee(108, "Jan",26));
-		Collections.sort(arr, new AgeComparator()); //sorting by age
+		//Collections.sort(arr, new AgeComparator()); //sorting by age
+		arr.sort(new AgeComparator());// we can either use the Collections.sort or the List interface's sort method
+
 		
 		for(Employee e: arr) {
 			System.out.println(e.id + " " + e.ename + " " + e.age);
 		}
 		System.out.println("**************");
-		Collections.sort(arr, new NameComparator());//sorting by name
+		//Collections.sort(arr, new NameComparator());//sorting by name
+		arr.sort(new NameComparator()); // we can either use the Collections.sort or the List interface's sort method
 		
 		for(Employee e: arr) {
 			System.out.println(e.id + " " + e.ename + " " + e.age);
 		}
 		
 		System.out.println("************");
-		Collections.sort(arr, new NameAgeComparator());//sort by age and name
+		//Collections.sort(arr, new NameAgeComparator());//sort by age and name
+		arr.sort(new NameAgeComparator());// we can either use the Collections.sort or the List interface's sort method
+
 		for(Employee e: arr) {
 			System.out.println(e.id + " " + e.ename + " " + e.age);
 		}
