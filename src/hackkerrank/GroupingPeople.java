@@ -10,12 +10,14 @@ import java.util.stream.Collectors;
 
 public class GroupingPeople {
 	
-//	public static List<List<Integer>> groupThePeople(int[] groupSizes) {
-//        
-//    }
-	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		//1. add given array to list
+		//2. create a hashmap to store key, value pairs
+		//3. using stream and distinct seperate the distinct values and store them in seperate list
+		//4. Take each distinct element and find all the keys to it and store in seperate list called biggroup
+		//5. loop through the big group to break into individual groups according to distinct elem value. store them in seperate list
+		//6. combine the lists to one big final list
+		
 		List<Integer> list = new ArrayList<>();
 		list.add(3);
 		list.add(2);
