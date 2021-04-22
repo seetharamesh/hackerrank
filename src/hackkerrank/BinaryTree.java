@@ -29,7 +29,7 @@ public class BinaryTree { //this class will model the tree using Node class
 //		return hasPathSum(n.left, sum-n.data) || hasPathSum(n.right, sum-n.data) ;
 		
 		boolean path=false; //declare boolean variable path
-		//base condition checking
+		//base case condition checking
 		if(root==null && s==0)
 			return true;
 
