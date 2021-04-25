@@ -60,7 +60,7 @@ public class DepthSearchAlgorithm {
 			//}
 		}
 	}
-	
+	/*In this recursive approach we are not using any stack to push and pull as above.*/
 	public void depthSearchUsingRecursive(Node node) {
 		List<Node> neighbors = node.getNeighbors();
 		System.out.println(node.data + " ");
