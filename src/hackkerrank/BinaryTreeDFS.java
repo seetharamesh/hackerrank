@@ -3,7 +3,6 @@ package hackkerrank;
 import java.util.ArrayList;
 import java.util.Stack;
 
-import hackkerrank.BinaryTreeBFS.Node;
 
 public class BinaryTreeDFS {
 	
@@ -32,8 +31,7 @@ public class BinaryTreeDFS {
 		if(!stack.isEmpty()) {
 			node = stack.pop();
 			node = node.right;
-		}
-		
+		}		
 	}
 	}
 
